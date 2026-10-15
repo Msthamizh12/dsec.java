@@ -1,8 +1,9 @@
 import java.util.*;
-public class Reverse {
+public class Main {
     public static void main(String[] args) {
       Scanner scan=new Scanner(System.in);
-      int n=1234;
+      System.out.println("Enter the number");
+      int n=scan.nextInt();
       int reverse=0;
       int remainder=0;
       for(;n!=0;n=n/10){
